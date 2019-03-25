@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: black;
+  background: url("http://static1.squarespace.com/static/5785112415d5db7cc123a214/5789372737c5819281d09e69/5a8c1f01e2c483ba7d016766/1530702388704/success.jpg?format=1500w");
+  background-size: cover;
+  color: #104064;
+  font-family: 'Germania One', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+}
+body div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  height: 50vh;
+}
+body button{
+  font-family: Courier New;
+  color: #f2e4f2;
+  font-size: 20px;
+  background: #104064;
+  padding: 10px 20px 10px 20px;
+  width: 260px;
+  height: 40px;
+  border: none;
+  font-weight: bolder;
+}
+body button:hover{
+  background: black;
+  text-decoration: none;
+}
